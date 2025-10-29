@@ -1,0 +1,15 @@
+/* 見出しのカラーを落ち着いたブルーに変更 */
+h1, h2, h3 {
+  color: #2C3E50; /* ダークブルー系 */
+}
+
+/* リンク色 */
+a {
+  color: #1ABC9C; /* ティール系 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+

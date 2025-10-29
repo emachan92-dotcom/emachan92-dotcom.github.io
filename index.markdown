@@ -1,6 +1,29 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: 仲榮眞のポートフォリオ
 ---
+
+![プロフィール](assets/images/profile.jpg){: style="width:150px; border-radius:50%; margin-bottom:20px;" }
+
+# 仲榮眞 (Nakaema Yuuki)
+
+こんにちは。  
+私は **ISTPタイプの落ち着いたエンジニア** です。  
+一人で集中して作業するのが好きで、着実に結果を出すことを大切にしています。
+
+---
+
+## 最近の経歴・プロジェクト
+1. **Azure検証**（学習・検証目的、2025年10月）
+2. **ADサーバ更改**（2025年9月）
+3. **データマッピングツール改修**（2025年5月～7月）
+4. **省庁向けサーバ運用・更改**（2025年1月～3月）
+5. **省庁向けシステム更改・サーバ構築～リリース**（2024年6月～12月）
+
+---
+
+## ページリンク
+- [スキル一覧](./skills/)  
+- [実績・プロジェクト紹介](./projects/)  
+- [連絡先・SNS](./contact/)
+
