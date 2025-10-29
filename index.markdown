@@ -1,29 +1,34 @@
 ---
-layout: home
+layout: default
 title: 仲榮眞のポートフォリオ
 ---
+{% include header.html %}
 
-![プロフィール](assets/images/profile.jpg){: style="width:150px; border-radius:50%; margin-bottom:20px;" }
+# 実績・プロジェクト紹介
 
-# 仲榮眞 (Nakaema Yuuki)
+<div class="projects-container">
 
-こんにちは。  
-私は **ISTPタイプの落ち着いたエンジニア** です。  
-一人で集中して作業するのが好きで、着実に結果を出すことを大切にしています。
+<!-- Azure検証 -->
+<div class="project-card">
+  <h3>Azure検証</h3>
+  <p><strong>期間:</strong> 2025年10月</p>
+  <p><strong>内容:</strong> Azure上でVM、Storage、SQL Databaseの操作・検証</p>
+</div>
 
----
+<!-- ADサーバ更改 -->
+<div class="project-card">
+  <h3>ADサーバ更改</h3>
+  <p><strong>期間:</strong> 2025年9月</p>
+  <p><strong>内容:</strong> ADサーバ更改に伴う結合～性能テスト、運用手順書作成</p>
+</div>
 
-## 最近の経歴・プロジェクト
-1. **Azure検証**（学習・検証目的、2025年10月）
-2. **ADサーバ更改**（2025年9月）
-3. **データマッピングツール改修**（2025年5月～7月）
-4. **省庁向けサーバ運用・更改**（2025年1月～3月）
-5. **省庁向けシステム更改・サーバ構築～リリース**（2024年6月～12月）
+<!-- データマッピングツール改修 -->
+<div class="project-card">
+  <h3>データマッピングツール改修</h3>
+  <p><strong>期間:</strong> 2025年5月～7月</p>
+  <p><strong>内容:</strong> Excel帳票改修・データ整形・マッピング調整</p>
+</div>
 
----
-
-## ページリンク
-- [スキル一覧](./skills/)  
-- [実績・プロジェクト紹介](./projects/)  
-- [連絡先・SNS](./contact/)
+<!-- 他のプロジェクトも同様に追加 -->
+</div>
 

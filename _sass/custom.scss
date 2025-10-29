@@ -1,4 +1,4 @@
-/* 見出しのカラーを落ち着いたブルーに変更 */
+./* 見出しのカラーを落ち着いたブルーに変更 */
 h1, h2, h3 {
   color: #2C3E50; /* ダークブルー系 */
 }
@@ -11,5 +11,145 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  background: #f7f9fb;
+  border-left: 5px solid #1ABC9C; /* ティールカラーのアクセント */
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #2C3E50; /* 見出しのカラー */
+}
+
+.project-card p {
+  color: #34495E; /* テキストの色 */
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-card {
+  background: #f7f9fb;
+  border-left: 5px solid #1ABC9C;
+  border-radius: 8px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.skill-card h3 {
+  margin: 10px 0 5px;
+  color: #2C3E50;
+}
+
+.skill-card p {
+  color: #34495E;
+  font-size: 14px;
+}
+
+.skill-card i {
+  color: #1ABC9C;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-card {
+  background: #f7f9fb;
+  border-left: 5px solid #1ABC9C;
+  border-radius: 8px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.contact-card h3 {
+  margin: 10px 0 5px;
+  color: #2C3E50;
+}
+
+.contact-card p {
+  font-size: 14px;
+  color: #34495E;
+}
+
+.contact-card i {
+  color: #1ABC9C;
+  margin-bottom: 10px;
+}
+
+.site-header {
+  background: #2C3E50; /* ダークブルー */
+  padding: 15px 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: #1ABC9C; /* ティール */
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+  color: #1ABC9C;
 }
 

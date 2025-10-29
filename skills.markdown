@@ -1,34 +1,38 @@
 ---
-layout: page
-title: スキル
-permalink: /skills/
+layout: default
+title: 仲榮眞のポートフォリオ
 ---
+{% include header.html %}
 
 # スキル一覧
 
-私が扱える技術や、現在勉強中の内容をまとめました。
+<div class="skills-container">
 
----
+<!-- インフラ / クラウド -->
+<div class="skill-card">
+  <i class="fas fa-server fa-2x"></i>
+  <h3>Linux</h3>
+  <p>Redhat8.8: 機能追加・設計書修正可能</p>
+</div>
 
-## インフラ / クラウド
-- **Linux**: 現在勉強中  
-- **Azure**: VM、Storage、SQL Database の操作・検証経験  
-- **ネットワーク**: VPN、Firewall、NSG設定
+<div class="skill-card">
+  <i class="fas fa-cloud fa-2x"></i>
+  <h3>Azure</h3>
+  <p>VM・Storage・SQL Database 操作・検証経験</p>
+</div>
 
----
+<!-- データ / オフィス -->
+<div class="skill-card">
+  <i class="fas fa-table fa-2x"></i>
+  <h3>Excel</h3>
+  <p>基本操作可能、関数一部使用</p>
+</div>
 
-## データ / オフィス
-- **Excel**: 基本操作は可能（関数は一部使用可能）  
-- **ピボットテーブル**: 現在勉強中  
-- **PowerPoint / Word**: 資料作成、報告書作成  
+<div class="skill-card">
+  <i class="fas fa-book fa-2x"></i>
+  <h3>LinuC</h3>
+  <p>勉強中（レベル1目指し中）</p>
+</div>
 
----
-
-## 資格 / 学習中
-- **LinuC**: 現在勉強中（レベル1を目指しています）  
-- **クラウド関連資格**: Azure基礎を勉強中  
-
----
-
-[トップページに戻る](./) | [実績ページへ](./projects/)
+</div>
 
