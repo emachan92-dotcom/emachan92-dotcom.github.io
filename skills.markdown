@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 仲榮眞のポートフォリオ
+permalink: /skills/
 ---
 {% include header.html %}
 
